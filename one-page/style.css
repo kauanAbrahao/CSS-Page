@@ -89,7 +89,7 @@ body{
     text-align: center;
 }
 
-button {
+.upper-text > button {
     width: 130px;
     height: 40px;
     background: linear-gradient(to bottom, #4eb5e5 0%,#389ed5 100%); /* W3C */
@@ -201,8 +201,9 @@ button:active {
 
   .bottom-container > h1{
     text-align: left;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: lighter;
+    padding-top: 10px;
 }
 
   .bottom-container > h2{
@@ -210,6 +211,60 @@ button:active {
       font-size: 25px;
       color: black;
       font-weight: bolder;
+      padding-bottom: 20px;
+  }
+
+  .end-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .end-signup{
+      height: 200px;
+      width: 800px;
+      margin: 40px;
+      border: 1px black solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #3882F6;
+      color: white;
+      gap: 150px;
+  }
+
+  #h2-end {
+      font-weight: bolder;
+  }
+
+  #h3-end {
+      margin-top: -10px;
+      font-weight: lighter;
+  }
+
+  #login-button {
+    background-color: #3882F6;
+    color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5%;
+    font-weight: bold;
+  }
+
+  #login-button:hover {
+       background-color: #95b9f1;
+       cursor: grab;
+  }
+
+  .footer{
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      background-color: #1F2937;
+      font-weight: lighter;
   }
   
 
